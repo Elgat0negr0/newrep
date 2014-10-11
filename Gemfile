@@ -44,7 +44,9 @@ gem 'haml-rails'
 
 gem 'activeadmin'           ,       github: 'activeadmin'
 gem 'activeadmin-mongoid',          github: 'esobolev/activeadmin-mongoid', branch: "customize"
-gem 'anjlab-bootstrap-rails',       github: 'anjlab/bootstrap-rails', branch: '3.0.0', require: 'bootstrap-rails'
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+# gem 'anjlab-bootstrap-rails',       github: 'anjlab/bootstrap-rails', branch: '3.0.0', require: 'bootstrap-rails'
 gem 'mongoid'
 gem 'bson'
 gem 'bson_ext'
