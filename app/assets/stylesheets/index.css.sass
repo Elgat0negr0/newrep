@@ -1,5 +1,71 @@
 .header
+  z-index: 1
+  position: fixed
+  width: 100%
+  text-align: center
   background: #49b5e1
+  color: white
+  padding: 0px
+  h1
+    margin-top: 0px
+    font-family: 'clarendon_btroman'
+    position: relative
+    &:before, &:after
+      content: ' '
+      width: 25%
+      height: 2px
+      background: white
+      display: block
+      position: absolute
+      top: 50%
+    &:before
+      left: 10px
+    &:after
+      right: 10px
 .navi
+  a
+    font-family: 'playregular'
+    &:hover
+      color: grey
+    color: white
+    padding: 8px 12px
+.body
+  padding: 100px 0px 0px 0px
   background: #49b5e1
-  height: 920px  
+  text-align: center
+.slider
+  padding: 100px 0px 0px 0px
+  background: #0645AD
+  text-align: center  
+  .img
+    margin: auto
+    width: 50%
+    img
+      width: 100%
+  h4
+    margin-top: 0px
+    font-family: 'clarendon_btlight'
+    position: relative
+    color: white
+  h3
+    margin-top: 0px
+    font-family: 'clarendon_btlight'
+    position: relative
+    color: white
+  h5
+    margin-top: 0px
+    font-family: 'clarendon_btlight'
+    position: relative
+    color: white
+  .radius
+    margin: 0px auto
+    width: 100%
+    .round
+      cursor: pointer
+      display: inline-block
+      width: 20px
+      height: 20px
+      border-radius: 100%
+      background: white
+      margin: auto 5px
+      &.active
