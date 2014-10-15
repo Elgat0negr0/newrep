@@ -7,4 +7,7 @@ class WebsiteController < ApplicationController
 
   def page
   end
+
+  def login
+  end
 end
